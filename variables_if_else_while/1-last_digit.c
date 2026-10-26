@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+* main - entry point
+*
+* Description: Print a random number and say what is the last digit,
+* if greater than 5, less than 6 or if 0.
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
