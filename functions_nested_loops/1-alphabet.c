@@ -1,18 +1,16 @@
 #include "main.h"
-
 /**
-* main - check the code
-* Description - Print alphabet
-* Return: Always 0.
-*/
+ * print_alphabet - print alphabet in lowercase, followed by a new line.
+ */
 void print_alphabet(void)
 {
-int i=0;
-while (i <= 26)
-{
-_putchar(i);
-i++;
-}
+	int i = 0;
+	int r = '\n';
 
-_putchar('\n');
+	while (i < 26)
+	{
+		_putchar (i);
+		i++;
+	}
+	_putchar('\n');
 }
