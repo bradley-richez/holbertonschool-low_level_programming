@@ -11,13 +11,15 @@
 
 int main(void)
 {
-char letter;
-for (letter = '0'; letter <= '9'; letter++)
+char n;
+for (n = '0'; n <= '9'; n++)
 {
-putchar(letter);
-putchar(',');
-putchar(' ');
+    putchar(n);
+    if (n != '9')
+    {
+        putchar(',');
+        putchar(' ');
+    }
 }
-
 return (0);
 }
