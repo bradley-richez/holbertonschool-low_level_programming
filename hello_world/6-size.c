@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Print strings with puts.
+ * Description: Prints size of various types using sizeof operator.
  * Return: Always 0 (Success)
  */
 int main(void)

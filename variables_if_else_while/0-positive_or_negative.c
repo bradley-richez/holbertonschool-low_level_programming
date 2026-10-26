@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+* main - entry point
+*
+* Description: Print a random number and say if it's positive or negative or 0.
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;

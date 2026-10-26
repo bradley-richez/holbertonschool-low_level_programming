@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Print strings with puts.
+ * Description: Print strings with printf.
  * Return: Always 0 (Success)
  */
 int main(void)
