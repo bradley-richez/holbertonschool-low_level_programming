@@ -4,7 +4,7 @@
 
 /**
 * main - entry point
-* Description: 
+* Description: Print numbers from 0 to 9 and letters from a to f.
 * Return: Always 0 (Success)
 */
 
