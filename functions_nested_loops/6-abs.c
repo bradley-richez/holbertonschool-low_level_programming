@@ -15,6 +15,6 @@ return (n);
 }
 else
 {
-return (n - ((n - n) * 2));
+return (n * -1);
 }
 }
