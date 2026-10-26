@@ -6,7 +6,7 @@ void print_alphabet(void)
 {
 	int i = 0;
 
-	while (i < 26)
+	while (i < 27)
 	{
 		_putchar (i);
 		i++;
