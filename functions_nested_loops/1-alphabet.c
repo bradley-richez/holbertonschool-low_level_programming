@@ -5,7 +5,6 @@
 void print_alphabet(void)
 {
 	int i = 0;
-	int r = '\n';
 
 	while (i < 26)
 	{
