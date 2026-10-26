@@ -7,7 +7,7 @@
 */
 void print_alphabet(void)
 {
-int i;
+int i=0;
 while (i <= 26)
 {
 _putchar(i);
