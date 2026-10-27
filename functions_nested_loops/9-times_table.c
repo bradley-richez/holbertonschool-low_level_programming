@@ -23,6 +23,9 @@ void times_table(void)
                 if(n<10){
                     _putchar(n+'0');
                 }
+                else{
+                    _putchar(n%10 + '0');
+                }
             }
         }
         _putchar(n + '0');
