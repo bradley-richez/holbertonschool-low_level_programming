@@ -3,19 +3,23 @@
 
 /**
  * print_to_98 - print until 98
+ * @n: integer
  * Return: 0
  */
 
-void print_to_98(int n){
-if (n >= 98){
-while(n > 98)
-printf("%d, ",n--);
-printf("%d\n",n);
+void print_to_98(int n)
+{
+if (n >= 98)
+{
+while (n > 98)
+printf("%d, ", n--);
+printf("%d\n", n);
 }
-else {
-while(n < 98)
-printf("%d, ",n++);
-printf("%d\n",n);
+else
+{
+while (n < 98)
+printf("%d, ", n++);
+printf("%d\n", n);
 }
 
 }
