@@ -13,11 +13,9 @@ for (hour = 0; hour < 60; hour++)
 {
 for (minute = 0; minute < 24; minute++)
 {
-_putchar((hour % 10) + '0');
+_putchar(hour);
 _putchar(hour % 10);
 _putchar(':');
-_putchar((minute % 10) + '0');
-_putchar(minute % 10);
 _putchar('\n');
 }
 }
