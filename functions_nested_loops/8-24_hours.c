@@ -13,8 +13,8 @@ for (hour = 0; hour < 60; hour++)
 {
 for (minute = 0; minute < 24; minute++)
 {
-_putchar((hour % 10) + "0");
-_putchar(":");
+_putchar((hour % 10) + '0');
+_putchar(':');
 _putchar(minute);
 }
 }
