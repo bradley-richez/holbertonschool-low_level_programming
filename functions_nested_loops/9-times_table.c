@@ -12,12 +12,11 @@ void times_table(void)
     int n;
 
     for (row=0;row<9;row++){
-        _putchar(n + '0');
-            _putchar(',');
-			_putchar(' ');
         for (col=0;col<9;col++){
             n = row * col;
-            _putchar(n + '0');
+            if(col == 0){
+                _putchar(n + '0');
+            }
             _putchar(',');
 			_putchar(' ');
         }
