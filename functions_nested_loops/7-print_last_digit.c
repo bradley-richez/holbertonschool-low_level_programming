@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* main - check the code
-* print_last_digit is a function to return the last digit
-* @n: is the argument
-* Return 0
-*/
+ * main - check the code
+ * print_last_digit - function to find value of an integer
+ * @n: is the int that will use for the argument of the function
+ * Return: 0
+ */
 
 int print_last_digit(int n)
 {
@@ -14,7 +14,6 @@ if (n > 0 || n == 0)
 {
 _putchar('0' + last);
 return (last);
-
 }
 else
 {
