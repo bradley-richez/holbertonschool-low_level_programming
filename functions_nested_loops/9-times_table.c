@@ -7,7 +7,14 @@
 
 void times_table(void)
 {
-    for (i=0;i<=9;i++){
-        printf(i);
+    int row;
+    int col;
+    int n;
+
+    for (row=0;row<9;row++){
+        for (col=0;col<9;col++){
+            _putchar(col + '0');
+        }
+        _putchar('\n');
     }
 }
