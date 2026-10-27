@@ -13,11 +13,9 @@ void times_table(void)
 
     for (row=0;row<9;row++){
         for (col=0;col<9;col++){
-            n = 0;
+            n = row * col;
             _putchar(n + '0');
-            n++;
         }
-        n++;
         _putchar(n + '0');
         _putchar('\n');
     }
