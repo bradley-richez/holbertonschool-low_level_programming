@@ -1,0 +1,26 @@
+#include "main.h"
+
+
+void print_most_numbers(void)
+{
+int  n;
+for (n = 0; n <= 9; n++)
+{
+    if (n != 2 || 4)
+    {
+        _putchar(n + '0');
+    }
+}
+_putchar('\n');
+}
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_most_numbers();
+    return (0);
+}
