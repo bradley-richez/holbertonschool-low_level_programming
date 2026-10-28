@@ -12,4 +12,18 @@ for (n = 0; n <= 9; n++)
     }
 }
 _putchar('\n');
+return (0);
 }
+
+
+
+// char letter = 'a';
+// for (letter = 'a'; letter <= 'z'; letter++)
+// {
+// if (letter != 'q' && letter != 'e')
+// {
+// putchar(letter);
+// }
+// }
+// putchar('\n');
+// return (0);
