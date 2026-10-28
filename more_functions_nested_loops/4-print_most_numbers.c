@@ -13,14 +13,3 @@ for (n = 0; n <= 9; n++)
 }
 _putchar('\n');
 }
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_most_numbers();
-    return (0);
-}
