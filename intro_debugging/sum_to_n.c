@@ -3,6 +3,7 @@
 /**
  * sum_to_n - function addition with
  * @n: integer
+ * Return: sum
  */
 
 int sum_to_n(int n)
