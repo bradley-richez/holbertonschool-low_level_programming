@@ -28,6 +28,15 @@ int main(void){
         printf("Result: %d\n",result);
         
     case 2:
+        printf("Choice: %d\n", choice);
+        printf("Choice a number for A:\n");
+        scanf("%d", &n1);
+        printf("A: %d\n",choice);
+        printf("Choice a number for B:\n");
+        scanf("%d", &n2);
+        printf("B: %d\n",choice);
+        result = n1 - n2;
+        printf("Result: %d\n",result);
         break;
     case 3:
         break;
