@@ -3,19 +3,6 @@
 
 int main(void){
     
-    int number;
-    char name[4][10] = {"Add", "Subtract", "Multiply","Divide"};
-    int quit;
-    printf("Simple calcultor\n");
-    for (int i=0;i<=3;i++){
-        printf("%d) ", i+1);
-        printf("%s\n", name[i]);
-    }
-    printf("0) Quit\n");
-    scanf("%d", &quit);
-    if (quit == 0) {        
-        printf("Choice: %d\n Bye!", quit);
-        exit(EXIT_SUCCESS); 
-    }
-    return (0);
+    printf("Welcome in simple calculator");
+    printf("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit\n");
 }
