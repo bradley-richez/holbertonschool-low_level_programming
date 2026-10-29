@@ -26,6 +26,7 @@ int main(void){
         printf("B: %d\n",choice);
         result = n1 + n2;
         printf("Result: %d\n",result);
+        break;
         
     case 2:
         printf("Choice: %d\n", choice);
