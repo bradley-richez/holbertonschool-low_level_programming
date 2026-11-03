@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strlen - change two numbers
+ * _strlen - print number of s
  * @s: int
  * Return: 0
  */
