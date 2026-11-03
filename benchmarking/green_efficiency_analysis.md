@@ -8,7 +8,7 @@ Pour le premier exercice, j’ai lancé chaque programme trois fois depuis le te
 Pour instrumentation_lab.c, j’ai ajouté des appels à clock() juste avant et après les fonctions build_dataset(), process_dataset() et reduce_checksum().
 
 ## Observed Performance Differences
-Les mesures mettent en évidence un écart important entre les deux approches. La version naïve s’exécute en moyenne en 0,578724 seconde, tandis que la version à passage unique ne prend que 0,000023 seconde. Selon ces résultats, la première est environ 24 800 fois plus lente que la seconde.
+Les mesures mettent en évidence un écart important entre les deux approches. La version naïve s’exécute en moyenne en 0.930369 seconde, tandis que la version à passage unique ne prend que 0.000033 seconde. Selon ces résultats, la première est environ ~28481 fois plus lente que la seconde.
 
 Cette différence s’explique par la structure des algorithmes :
 - La méthode naïve utilise deux boucles imbriquées. 
