@@ -51,7 +51,7 @@ int main(void){
         printf("Result: %d\n",result);
         break;
     case 4:
-    printf("Choice: %d\n", choice);
+        printf("Choice: %d\n", choice);
         printf("Choice a number for A:\n");
         scanf("%d", &n1);
         printf("A: %d\n",choice);
@@ -65,8 +65,5 @@ int main(void){
             printf("Choice: %d\nInvalid choice\n",choice);
             break;
     }
-
-    
-    
     return (0);
 }
