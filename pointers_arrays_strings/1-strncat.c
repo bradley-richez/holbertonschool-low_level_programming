@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat - check the code
+ * _strncat - function adds the first ‘n’ characters of the string
  * @dest: first string
  * @src: second string to concanate
  * @n: number of character to print in dest
