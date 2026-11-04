@@ -19,7 +19,7 @@ i++;
 }
 while (src[j] != '\0')
 {
-dest[a] = src[b];
+dest[i] = src[j];
 i++;
 j++;
 }
