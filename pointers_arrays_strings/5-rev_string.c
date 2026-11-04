@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 
 /**
  * rev_string - reverse string
@@ -9,24 +7,22 @@
  */
 void rev_string(char *s)
 {
-    char temp;
-    int len = _strlen(s) - 1;
-    int i;
-    int k = len;
+char temp;
+char *first = s;
+char *end = s;
 
-    for(i = 0; i < len; i++)
-    {
-        temp = s[k];
-        s[k] = s[i];
-        s[i] = temp;
-        k--;
+while (*end != '\0')
+{
+end++;
+}
+end--;
+while (first < end)
+{
+temp = *first;
+*first = *end;
+*end = temp;
 
-        /* As 2 characters are changing place for each cycle of the loop
-           only traverse half the array of characters */
-        if(k == (len / 2))
-        {
-            break;
-        }
-    }
-    
+first++;
+end--;
+}
 }
