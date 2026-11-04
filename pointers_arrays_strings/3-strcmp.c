@@ -11,17 +11,14 @@
 
 int _strcmp(char *s1, char *s2)
 {
-
 int i = 0;
+int result = 0;
 
-while ((str1[i] != '\0') && (str2[i] != '\0'))
+while (s1[i] == s2[i] && s1[i] != '\0' && s2[i] != '\0')
 {
-if (str1[i] != str2[i])
-return (str1[i] - str2[i]);
-
 i++;
 }
-
-return (str1[i] - str2[i]);
+result = s1[i] - s2[i];
+return (result);
 
 }
