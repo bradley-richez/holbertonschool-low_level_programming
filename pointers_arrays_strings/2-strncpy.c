@@ -1,5 +1,4 @@
-#incluez « main.h »
-#include <stdio.h >
+#include "main.h"
 
 /**
  * _strncpy - function copies the first ‘n’ characters
