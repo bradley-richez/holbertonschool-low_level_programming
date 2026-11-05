@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * cap_string - convert lower to uppercase the first letter of string
