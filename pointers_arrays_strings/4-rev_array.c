@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reverse_array function reverse an array
+ * reverse_array - function reverse an array
  * @a: array
  * @n: number total in array
  */
