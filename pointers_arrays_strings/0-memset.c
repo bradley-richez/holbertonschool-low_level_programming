@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _memset - fills n character
  * @s: pointer of area
