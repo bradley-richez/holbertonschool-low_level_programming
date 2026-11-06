@@ -22,8 +22,5 @@ if (c != '\0')
 {
 return (&s[i]);
 }
-else
-{
 return (NULL);
-}
 }
