@@ -1,6 +1,4 @@
-
-
-   #include "main.h"
+#include "main.h"
 
 /**
  * _strpbrk - find string accept in string s
