@@ -4,7 +4,7 @@
  * _strchr - find first character c in string s
  * @s: string
  * @c: find character in s
- * Return: 0
+ * Return: NULL
  */
 char *_strchr(char *s, char c)
 {

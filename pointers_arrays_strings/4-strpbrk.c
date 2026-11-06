@@ -5,7 +5,7 @@
  * @s: string
  * @accept: string founded
  *
- * Return: Always 0.
+ * Return: NULL
  */
 
 char *_strpbrk(char *s, char *accept)
