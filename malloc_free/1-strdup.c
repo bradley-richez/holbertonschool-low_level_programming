@@ -21,7 +21,8 @@ return (NULL);
 for (i = 0; str[i] != '\0'; i++)
 {
 }
-twin = malloc(sizeof(char) * i);
+twin = malloc(sizeof(char) * (i + 1));
+
 if (twin == NULL)
 {
 return (NULL);
