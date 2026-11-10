@@ -41,7 +41,7 @@ for (i = 0; i < s1_length; i++)
 {
 result[i] = s1[i];
 }
-for (j = 0; j < s2_length; j++)
+for (j = 0; j < n; j++)
 {
 result[i] = s2[j];
 i++;
