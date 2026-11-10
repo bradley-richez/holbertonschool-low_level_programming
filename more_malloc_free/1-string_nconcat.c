@@ -50,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
     for (i = 0; i < s1_length; i++)
     {
-        result[i] = s1[1];
+        result[i] = s1[i];
     }
 
     for (j = 0; j < s2_length; j++)
