@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * str_concat - check the code
- *
- * Return: Always 0.
+ * str_concat - concanate two strings
+ * @s1: string
+ * @s2: string
+ * Return: pointer to new string
  */
 
 char *str_concat(char *s1, char *s2)
