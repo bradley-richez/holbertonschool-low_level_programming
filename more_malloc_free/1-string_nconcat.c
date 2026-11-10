@@ -46,5 +46,6 @@ for (j = 0; j < n; j++)
 result[i] = s2[j];
 i++;
 }
+result[i] = '\0';
 return (result);
 }
