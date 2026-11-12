@@ -10,22 +10,22 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int i;
-unsigned int totalsize = nmemb * size;
 void *pointer;
+unsigned int totalSize, i;
 char *result;
 
 if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-pointer = malloc(totalsize);
+totalSize = nmemb * size;
+pointer = malloc(totalSize);
 if (pointer == NULL)
 {
 return (NULL);
 result = pointer;
 }
-for (i = 0 ; i < totalsize; i++)
+for (i = 0 ; i < totalSize; i++)
 {
 result[i] = 0;
 }
