@@ -19,6 +19,6 @@ d->owner = owner;
 }
 else
 {
-break;
+;
 }
 }
