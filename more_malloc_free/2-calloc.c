@@ -10,16 +10,17 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int totalsize = nmemb * size;
-unsigned int *memory = malloc(totalsize * sizeof(memory));
 unsigned int i;
+unsigned int totalsize = nmemb * size;
+void *pointer;
 char *result;
 
 if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-if (memory == NULL)
+pointer = malloc(totalsize);
+if (pointer == NULL)
 {
 return (NULL);
 result = memory;
