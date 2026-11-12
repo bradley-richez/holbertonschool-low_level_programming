@@ -23,7 +23,6 @@ pointer = malloc(totalSize);
 if (pointer == NULL)
 {
 return (NULL);
-result = pointer;
 }
 for (i = 0 ; i < totalSize; i++)
 {
