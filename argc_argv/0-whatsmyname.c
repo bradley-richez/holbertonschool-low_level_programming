@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - prints the program's name, followed by a new line
+ * @argc: the number of command line arguments
+ * @argv: an array containing the program command line arguments
+ * Return: 0
+ */
+int main(int argc __attribute__((unused)), char *argv[])
+{
+
+printf("%s\n", argv[0]);
+return (0);
+}
