@@ -5,7 +5,9 @@
 
 void print_all(const char * const format, ...)
 {
-    
+    va_list ap;
+    va_start(ap,format);
+    va_end(ap);
 }
 /**
  * main - check the code
