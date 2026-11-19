@@ -4,7 +4,7 @@
 /**
  * print_numbers - print numbers
  * @separator: print , after each number
- * @n: numbers
+ * @n: number of parameters
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
