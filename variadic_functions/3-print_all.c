@@ -20,7 +20,7 @@ if (str == NULL)
 {
 printf("(nil)");
 }
-printf("%s", va_arg(*args, char *));
+printf("%s", str);
 }
 
 
