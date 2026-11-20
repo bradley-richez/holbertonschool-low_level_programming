@@ -8,8 +8,8 @@ void print_all(const char * const format, ...);
 
 typedef struct character
 {
-    char type;
-    void (*f)(va_list *args);
+char type;
+void (*f)(va_list *args);
 } character;
 
 void print_char(va_list *args);
