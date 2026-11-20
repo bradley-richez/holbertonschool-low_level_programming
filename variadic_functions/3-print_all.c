@@ -2,15 +2,51 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-
+void print_char(va_list *args)
+{
+printf("%c", va_arg(*args, int));
+}
+void print_integer(va_list *args)
+{
+printf("%d", va_arg(*args, int));
+}
+void print_float(va_list *args)
+{
+printf("%f", va_arg(*args, double));
+}
+void print_string(va_list *args)
+{
+printf("%s", va_arg(*args, char *));
+}
 void print_all(const char * const format, ...)
 {
-    va_list ap;
-    va_start(ap,format);
-    va_end(ap);
+va_list ap;
+unsigned int i;
+char *separator = "";
+character characters[] = {
+{"c", print_char},
+{"d", print_integer},
+{"f", print_float},
+{"s", print_string},
+{0, NULL},
 }
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
+va_start(ap, format);
+
+while (format && *(format + i))
+{
+n = 0;
+while (characters[n].type != *(format + i) && characters[n].f != NULL)
+{
+n++;
+}
+if (characters[n].f != NULL)
+{
+printf("%s", separator);
+characters[n].f(&ap);
+separator = ", ";
+}
+i++
+}
+va_end(ap);
+printf("\n");
+}
