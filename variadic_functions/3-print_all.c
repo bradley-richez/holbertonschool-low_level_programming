@@ -15,6 +15,11 @@ printf("%f", va_arg(*args, double));
 }
 void print_string(va_list *args)
 {
+char *str = va_arg(*args, char *);
+if (str == NULL)
+{
+printf("(nil)");
+}
 printf("%s", va_arg(*args, char *));
 }
 
