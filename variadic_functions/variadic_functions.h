@@ -6,6 +6,12 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
+
+/**
+ * struct character - Struct type + function
+ * @type: type format
+ * @f: function
+ */
 typedef struct character
 {
 char type;
