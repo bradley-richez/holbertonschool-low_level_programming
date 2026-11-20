@@ -17,6 +17,12 @@ void print_string(va_list *args)
 {
 printf("%s", va_arg(*args, char *));
 }
+
+
+/**
+ * print_all - Prints char, int, float, and string in argument
+ * @format: type format of arguments
+ */
 void print_all(const char * const format, ...)
 {
 va_list ap;
@@ -24,12 +30,12 @@ unsigned int i = 0;
 unsigned int n = 0;
 char *separator = "";
 character characters[] = {
-{"c", print_char},
-{"d", print_integer},
-{"f", print_float},
-{"s", print_string},
-{0, NULL},
-}
+{'c', print_char},
+{'i', print_integer},
+{'f', print_float},
+{'s', print_string},
+{0, NULL}
+};
 va_start(ap, format);
 
 while (format && *(format + i))
@@ -45,7 +51,7 @@ printf("%s", separator);
 characters[n].f(&ap);
 separator = ", ";
 }
-i++
+i++;
 }
 va_end(ap);
 printf("\n");
